@@ -148,3 +148,19 @@
 // access modifier(private,public,randomly) ----- we can do private any object or array for no change in class....we can do public then we can change the value
 
 
+// Module System
+
+import {Player} from './classes/Player.js'
+import { IsPlayer } from './classes/Interface.js';
+const mashrafi = new Player('Mashrafi', 48, 'Bangladesh')
+let sakib :IsPlayer; 
+
+sakib = new Player('sakib', 48, 'Bangladesh')
+
+console.log(sakib.age);
+console.log(sakib.country);
+
+const players : IsPlayer[] = []
+
+players.push(sakib)
+players.push(mashrafi)

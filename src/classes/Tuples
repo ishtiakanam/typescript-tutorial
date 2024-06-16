@@ -1,0 +1,7 @@
+let a = [3,'hello',{p:3}]
+
+a[0] = 6;
+
+let b:[number,string,object,boolean] = [3,'work',{t:1},true]
+
+b[1] = "2"
